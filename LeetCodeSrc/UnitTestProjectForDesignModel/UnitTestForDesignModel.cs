@@ -17,6 +17,10 @@ namespace UnitTestProjectForDesignModel
             builderModelMain.BuilderMain();
         }
 
+
+        /// <summary>
+        /// 原型模式单元测试
+        /// </summary>
         [TestMethod]
         public void TestMethodForPrototypePattern()
         {

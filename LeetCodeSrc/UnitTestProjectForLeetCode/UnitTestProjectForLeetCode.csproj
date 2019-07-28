@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B7B5D1C-ABAA-4998-86FF-6A341E9270A4}</ProjectGuid>
+    <ProjectGuid>{4845F930-BAEB-4BED-AA3B-FA9A8F9C45F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTestProjectForDesignModel</RootNamespace>
-    <AssemblyName>UnitTestProjectForDesignModel</AssemblyName>
+    <RootNamespace>UnitTestProjectForLeetCode</RootNamespace>
+    <AssemblyName>UnitTestProjectForLeetCode</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,12 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DesignModel\DesignModel.csproj">
-      <Project>{b2ebdb8b-8763-4bbf-bbca-306e08bec27b}</Project>
-      <Name>DesignModel</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

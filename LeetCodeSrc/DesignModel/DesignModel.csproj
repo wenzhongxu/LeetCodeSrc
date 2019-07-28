@@ -44,6 +44,7 @@
     <Compile Include="AbstractFactory.cs" />
     <Compile Include="BuilderModel.cs" />
     <Compile Include="FactoryMethod.cs" />
+    <Compile Include="PrototypePattern.cs" />
     <Compile Include="SingletonPattern.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="AbstractFactory.cs" />
     <Compile Include="AdapterPattern.cs" />
+    <Compile Include="BridgePattern.cs" />
     <Compile Include="BuilderModel.cs" />
     <Compile Include="FactoryMethod.cs" />
     <Compile Include="PrototypePattern.cs" />

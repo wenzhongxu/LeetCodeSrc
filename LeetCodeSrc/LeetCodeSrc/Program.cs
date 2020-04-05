@@ -11,8 +11,12 @@ namespace LeetCodeSrc
     {
         static void Main(string[] args)
         {
-            DoubleWeekSolution23 solution = new DoubleWeekSolution23();
-            Console.WriteLine(solution.CountLargestGroup(15));
-            Console.ReadLine();        }
+            //DoubleWeekSolution23 solution = new DoubleWeekSolution23();
+            //Console.WriteLine(solution.CountLargestGroup(15));
+
+            WeeklySolution183 solution = new WeeklySolution183();
+            Console.WriteLine(solution.NumSteps("1111011110000011100000110001011011110010111001010111110001"));
+            Console.ReadLine();     
+        }
     }
 }
